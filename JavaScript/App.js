@@ -158,6 +158,8 @@ let app = new Vue({
           console.log("🚀 ~ ProcessOrder ~ app.Product = json:", app.Product);
         })
       );
+      this.name = ""; // Customer's name
+      this.phone = ""; // Customer's phone number
     },
 
     UpdateProduct(id, spaceValue) {
